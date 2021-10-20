@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ColorMiX</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="content">
+        <h2>Color One</h2>
+        <div id="c1">
+        <input type="number" class="input-group-text" id="c1r" placeholder="Red" onkeyup="display();" autocomplete="on">
+        <input type="number" class="input-group-text" id="c1g" placeholder="Green" onkeyup="display();">
+        <input type="number" class="input-group-text" id="c1b" placeholder="Blue" onkeyup="display();">
+        <div id="c1-display"></div>
+        </div><br>
+      
+        <h2>Color Two</h2>
+        <div id="c2">
+        <input type="number" class="input-group-text" id="c2r" placeholder="Red" onkeyup="display();">
+        <input type="number" class="input-group-text" id="c2g" placeholder="Green" onkeyup="display();">
+        <input type="number" class="input-group-text" id="c2b" placeholder="Blue" onkeyup="display();">
+        <div id="c2-display"></div>
+      </div>
+    <button class="btn btn-success"  id="mix" type="submit">Mix</button>
+    <button class="btn btn-danger"  id="rst" >Reset</button>
+    
+    </div>
+    <div id="result-display"></div>
+    </div>
+  </body>
+</html>

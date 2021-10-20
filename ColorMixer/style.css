@@ -1,0 +1,30 @@
+#c1,#c2{
+    display: table ;
+  
+  }
+  #c1 input,#c2 input{
+    display :table-cell ;
+    margin:0 5px ;
+    width: 100px ;
+    outline: none ;
+  }
+  #c1-display,#c2-display{
+    width: 80px ;
+    height: 40px ;
+    display: table-cell ;
+    border: solid black ;
+  
+  }
+  #mix,#rst{
+    margin: 7px 0px 0px 10px  ;
+  }
+  #main{
+    display:flex ;
+  
+  }
+  #result-display{
+    height: 150px ;
+    width: 150px ;
+    border:solid black ;
+    margin: 48px 10px ;
+  }
